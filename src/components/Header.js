@@ -1,8 +1,11 @@
+const headerStyles = {
+  color:"#bb4f35"
+};
+
 
 function Header() {
-
   return (
-    <div className="header">Charms</div>
+    <div className="header" style={headerStyles}>Charms</div>
   )
 };
 
