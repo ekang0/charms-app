@@ -1,9 +1,10 @@
-
+const navStyles = {
+  background: "#4c6969"
+}
 
 function Navbar() {
-
   return(
-    <div>Navbar works</div>
+    <div className="navbar" style={navStyles}>Navbar works</div>
   )
 };
 
