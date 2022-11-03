@@ -1,5 +1,5 @@
 const headerStyles = {
-  color:"#bb4f35"
+  color: "#bb4f35"
 };
 
 
