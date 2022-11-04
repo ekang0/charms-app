@@ -5,12 +5,12 @@ import Header from './Header';
 import { useState, useEffect } from "react";
 import {
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Home from "./Home";
 import AllSpells from "./AllSpells";
 import SinisterSpells from "./SinisterSpells";
+import AddSpell from "./AddSpell"
 
 function App() {
   const [spells, setSpells] = useState([])
@@ -33,12 +33,16 @@ function App() {
       <header>
         <Header/>
         <Navbar/>
+        <br></br>
         <Switch>
-          <Route path="/All">
+          <Route path="/all">
             <AllSpells/>
           </Route>
-          <Route path="/Sinister">
+          <Route path="/sinister">
             <SinisterSpells/>
+          </Route>
+          <Route path="/add">
+            <AddSpell/>
           </Route>
           <Route path="/">
             <Home/>
