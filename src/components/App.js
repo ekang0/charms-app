@@ -3,6 +3,14 @@ import '../App.css';
 import Navbar from './Navbar';
 import Header from './Header';
 import { useState, useEffect } from "react";
+import {
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from "./Home";
+import AllSpells from "./AllSpells";
+import SinisterSpells from "./SinisterSpells";
 
 function App() {
   const [spells, setSpells] = useState([])
@@ -22,10 +30,23 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
-      <Navbar/>
-      <h3>wands at the ready</h3>
-      {spellsList}
+      <header>
+        <Header/>
+        <Navbar/>
+        <Switch>
+          <Route path="/All">
+            <AllSpells/>
+          </Route>
+          <Route path="/Sinister">
+            <SinisterSpells/>
+          </Route>
+          <Route path="/">
+            <Home/>
+          </Route>
+        </Switch>
+
+        {spellsList}
+      </header>
     </div>
   );
 }
