@@ -1,6 +1,8 @@
 const headerStyles = {
   color: "#bb4f35",
-  padding: "15px"
+  padding: "15px",
+  textAlign: "center",
+  fontSize: "20px",
 };
 
 
