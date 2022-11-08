@@ -10,7 +10,8 @@ import {
 import Home from "./Home";
 import AllSpells from "./AllSpells";
 import SinisterSpells from "./SinisterSpells";
-import AddSpell from "./AddSpell"
+import AddSpell from "./AddSpell";
+import SpellCard from "./SpellCard";
 
 function App() {
   const [spells, setSpells] = useState([])
@@ -27,6 +28,10 @@ function App() {
       </div>
     )
   });
+  //console.log("spellsList is ", spellsList)
+
+  //const firstSpell = spells[0];
+  //console.log(firstSpell)
 
   return (
     <div className="App">
@@ -48,9 +53,14 @@ function App() {
             <Home/>
           </Route>
         </Switch>
-
-        {spellsList}
       </header>
+      <div>
+        {spells.map((spell) => { 
+          return (
+            <SpellCard key={spell.id} spell={spell}/>
+          )
+          })}
+      </div>
     </div>
   );
 }
