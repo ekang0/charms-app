@@ -12,26 +12,19 @@ import AllSpells from "./AllSpells";
 import SinisterSpells from "./SinisterSpells";
 import AddSpell from "./AddSpell";
 import SpellCard from "./SpellCard";
+//import { Card } from "semantic-ui-react";
 
 function App() {
-  const [spells, setSpells] = useState([])
+  const [spells, setSpells] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3004/spells")
     .then(res => res.json())
     .then(spellsData => setSpells(spellsData))
-  }, [])
+  }, []);
 
-  const spellsList = spells.map((spell) => {
-    return (
-      <div key={spell.id}>{spell.spell_name}
-      </div>
-    )
-  });
-  //console.log("spellsList is ", spellsList)
+  const sinisterSpellsList = spells.filter((spell) => spell.unforgivable === true);
 
-  //const firstSpell = spells[0];
-  //console.log(firstSpell)
 
   return (
     <div className="App">
@@ -41,10 +34,10 @@ function App() {
         <br></br>
         <Switch>
           <Route path="/all">
-            <AllSpells/>
+            <AllSpells spells={spells}/>
           </Route>
           <Route path="/sinister">
-            <SinisterSpells/>
+            <SinisterSpells spells={sinisterSpellsList}/>
           </Route>
           <Route path="/add">
             <AddSpell/>
@@ -54,15 +47,8 @@ function App() {
           </Route>
         </Switch>
       </header>
-      <div>
-        {spells.map((spell) => { 
-          return (
-            <SpellCard key={spell.id} spell={spell}/>
-          )
-          })}
-      </div>
     </div>
   );
-}
+};
 
 export default App;
