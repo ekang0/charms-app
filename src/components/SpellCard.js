@@ -1,6 +1,5 @@
 function SpellCard (spell) {
   const {spell: {description}, spell: {id}, spell:{spell_name}, spell: {unforgivable}} = spell;
-
   
   const cardStyle = {
     boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)",
@@ -12,17 +11,17 @@ function SpellCard (spell) {
     background: "#eeeee6",
     textAlign: "center",
     overflow: "hidden",
-    textAlign: "justify",
+    textAlign: "justify"
   };
 
   const containerStyle = {
       padding: "30px 35px",
-  }
+  };
 
   const descriptionStyle = {
     fontSize: "10px"
-  }
-
+  };
+  
 
   return (
     <div className="card" id={id} style={cardStyle}>
