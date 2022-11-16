@@ -1,464 +1,464 @@
 {
-  "spells":[
+  "spells": [
     {
-      "spell_name" : "Accio",
-      "description" : "Brings an object to you",
+      "spell_name": "Accio",
+      "description": "Brings an object to you",
       "id": 1,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Aguamenti",
-      "description" : "Creates a gush of water from the tip of the spell caster’s wand",
+      "spell_name": "Aguamenti",
+      "description": "Creates a gush of water from the tip of the spell caster’s wand",
       "id": 2,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Alohomora",
-      "description" : "Opens locks",
+      "spell_name": "Alohomora",
+      "description": "Opens locks",
       "id": 3,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Aparecium",
-      "description" : "Makes invisible ink become visible",
+      "spell_name": "Aparecium",
+      "description": "Makes invisible ink become visible",
       "id": 4,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Avada Kedavra",
-      "description" : "The Unforgivable Curse, kills your opponent",
+      "spell_name": "Avada Kedavra",
+      "description": "The Unforgivable Curse, kills your opponent",
       "id": 5,
       "unforgivable": true
-    }, 
+    },
     {
-      "spell_name" : "Avifors",
-      "description" : "Turns things into birds",
+      "spell_name": "Avifors",
+      "description": "Turns things into birds",
       "id": 6,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Avis",
-      "description" : "Makes birds fly out of the end of your wand",
+      "spell_name": "Avis",
+      "description": "Makes birds fly out of the end of your wand",
       "id": 7,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Bombarda",
-      "description" : "Causes a small, locally contained explosion",
+      "spell_name": "Bombarda",
+      "description": "Causes a small, locally contained explosion",
       "id": 8,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Colloportus",
-      "description" : "Closes a door and binds it so that it can’t be opened",
+      "spell_name": "Colloportus",
+      "description": "Closes a door and binds it so that it can’t be opened",
       "id": 9,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Confringo",
-      "description" : "The Blasting Curse; Causes the item targeted to explode",
+      "spell_name": "Confringo",
+      "description": "The Blasting Curse; Causes the item targeted to explode",
       "id": 10,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Confundus",
-      "description" : "Confounds your target, or makes them temporarily confused",
+      "spell_name": "Confundus",
+      "description": "Confounds your target, or makes them temporarily confused",
       "id": 11,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Conjunctivitis",
-      "description" : "Damages the eyesight of your opponent, making them seem to have pink eye",
+      "spell_name": "Conjunctivitis",
+      "description": "Damages the eyesight of your opponent, making them seem to have pink eye",
       "id": 12,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Crucio",
-      "description" : "The Second Unforgivable Curse, the Cruciatus Curse; Tortures your opponent mercilessly",
+      "spell_name": "Crucio",
+      "description": "The Second Unforgivable Curse, the Cruciatus Curse; Tortures your opponent mercilessly",
       "id": 13,
       "unforgivable": true
-    }, 
+    },
     {
-      "spell_name" : "Deletrius",
-      "description" : "Erases the last spell cast by a wand so that it can’t be discovered",
+      "spell_name": "Deletrius",
+      "description": "Erases the last spell cast by a wand so that it can’t be discovered",
       "id": 14,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Densaugeo",
-      "description" : "Makes teeth grow out of control",
+      "spell_name": "Densaugeo",
+      "description": "Makes teeth grow out of control",
       "id": 15,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Diffindo",
-      "description" : "Makes seams split open, severs an object into two pieces",
+      "spell_name": "Diffindo",
+      "description": "Makes seams split open, severs an object into two pieces",
       "id": 16,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Dissendium",
-      "description" : "Opens a specific passageway into a cellar, may be useful in other instances; may be only a password",
+      "spell_name": "Dissendium",
+      "description": "Opens a specific passageway into a cellar, may be useful in other instances; may be only a password",
       "id": 17,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Duro",
-      "description" : "Turns an item to stone",
+      "spell_name": "Duro",
+      "description": "Turns an item to stone",
       "id": 18,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Engorgio",
-      "description" : "Makes an item larger, as in swollen",
+      "spell_name": "Engorgio",
+      "description": "Makes an item larger, as in swollen",
       "id": 19,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Episspell_name",
-      "description" : "Heals relatively minor wounds",
+      "spell_name": "Episspell_name",
+      "description": "Heals relatively minor wounds",
       "id": 20,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Evanesco",
-      "description" : "Causes an item to immediately dissolve away, as if it had never existed",
+      "spell_name": "Evanesco",
+      "description": "Causes an item to immediately dissolve away, as if it had never existed",
       "id": 21,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Expecto Patronum",
-      "description" : "Creates Patronus",
+      "spell_name": "Expecto Patronum",
+      "description": "Creates Patronus",
       "id": 22,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Expelliarmus",
-      "description" : "Disarms the target of the spell, such as knocking their wand out of their hand",
+      "spell_name": "Expelliarmus",
+      "description": "Disarms the target of the spell, such as knocking their wand out of their hand",
       "id": 23,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Fera Verto",
-      "description" : "Transforms animals into water goblets!",
+      "spell_name": "Fera Verto",
+      "description": "Transforms animals into water goblets!",
       "id": 24,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Ferula",
-      "description" : "Binds a broken limb with a splint and bandages, tightly wrapped",
+      "spell_name": "Ferula",
+      "description": "Binds a broken limb with a splint and bandages, tightly wrapped",
       "id": 25,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Fidelius",
-      "description" : "Allows a secret to be hidden within the secret keeper’s soul; very powerful spell",
+      "spell_name": "Fidelius",
+      "description": "Allows a secret to be hidden within the secret keeper’s soul; very powerful spell",
       "id": 26,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Finite Incantatem",
-      "description" : "Stops any spell",
+      "spell_name": "Finite Incantatem",
+      "description": "Stops any spell",
       "id": 27,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Flagrate",
-      "description" : "Allows the user to write or draw in the air with fire",
+      "spell_name": "Flagrate",
+      "description": "Allows the user to write or draw in the air with fire",
       "id": 28,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Flipendo",
-      "description" : "Also knows as the Knockback Jinx, pushes or flips something backwards",
+      "spell_name": "Flipendo",
+      "description": "Also knows as the Knockback Jinx, pushes or flips something backwards",
       "id": 29,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Furnunculus",
-      "description" : "Causes a person to break out in boils",
+      "spell_name": "Furnunculus",
+      "description": "Causes a person to break out in boils",
       "id": 30,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Geminio",
-      "description" : "Creates a duplicate of an item (a twin, as in the zodiacal sign Gemini)",
+      "spell_name": "Geminio",
+      "description": "Creates a duplicate of an item (a twin, as in the zodiacal sign Gemini)",
       "id": 31,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Homorphus",
-      "description" : "Man-Shape; makes a werewolf or person disguised as an animal resume their human shape",
+      "spell_name": "Homorphus",
+      "description": "Man-Shape; makes a werewolf or person disguised as an animal resume their human shape",
       "id": 32,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Immobulus",
-      "description" : "Immobilizes the target",
+      "spell_name": "Immobulus",
+      "description": "Immobilizes the target",
       "id": 33,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Impedimenta",
-      "description" : "Puts up an impediment that slows down something or someone that is coming toward you",
+      "spell_name": "Impedimenta",
+      "description": "Puts up an impediment that slows down something or someone that is coming toward you",
       "id": 34,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Imperio",
-      "description" : "The third unforgivable curse.  Allows the user to assume complete control of another person",
+      "spell_name": "Imperio",
+      "description": "The third unforgivable curse.  Allows the user to assume complete control of another person",
       "id": 35,
       "unforgivable": true
-    }, 
+    },
     {
-      "spell_name" : "Impervius",
-      "description" : "Repels water from a surface",
+      "spell_name": "Impervius",
+      "description": "Repels water from a surface",
       "id": 36,
-      "unforgivable": false      
-    }, 
+      "unforgivable": false
+    },
     {
-      "spell_name" : "Incarcerous",
-      "description" : "Conjures up ropes, which then bind an opponent",
+      "spell_name": "Incarcerous",
+      "description": "Conjures up ropes, which then bind an opponent",
       "id": 37,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Incendio",
-      "description" : "Lights a fire",
+      "spell_name": "Incendio",
+      "description": "Lights a fire",
       "id": 38,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Legilimens",
-      "description" : "Allows the user to gain access to another’s mind and memories",
+      "spell_name": "Legilimens",
+      "description": "Allows the user to gain access to another’s mind and memories",
       "id": 39,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Levicorpus",
-      "description" : "Turns your opponent upside down and dangles them in thin air",
+      "spell_name": "Levicorpus",
+      "description": "Turns your opponent upside down and dangles them in thin air",
       "id": 40,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Liberacorpus",
-      "description" : "\"Liberates\", or frees a body that has been caught up by the levicorpus spell",
+      "spell_name": "Liberacorpus",
+      "description": "\"Liberates\", or frees a body that has been caught up by the levicorpus spell",
       "id": 41,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Locomotor Mortis",
-      "description" : "The Leg-Locker Curse; locks an opponent’s legs together",
+      "spell_name": "Locomotor Mortis",
+      "description": "The Leg-Locker Curse; locks an opponent’s legs together",
       "id": 42,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Lumos",
-      "description" : "Creates light, usually by making the tip of the wand glow.  More light can be created using \"lumos maxima\"",
+      "spell_name": "Lumos",
+      "description": "Creates light, usually by making the tip of the wand glow.  More light can be created using \"lumos maxima\"",
       "id": 43,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Mobiliarbus",
-      "description" : "Used to move a tree from one place to another",
+      "spell_name": "Mobiliarbus",
+      "description": "Used to move a tree from one place to another",
       "id": 44,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Mobilicorpus",
-      "description" : "Used to move a body from one place to another",
+      "spell_name": "Mobilicorpus",
+      "description": "Used to move a body from one place to another",
       "id": 45,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Morsmordre",
-      "description" : "Used to summon the Dark Mark",
+      "spell_name": "Morsmordre",
+      "description": "Used to summon the Dark Mark",
       "id": 46,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Muffliato",
-      "description" : "Causes a buzzing noise to surround a limited area so that those in the area can carry on a private conversation",
+      "spell_name": "Muffliato",
+      "description": "Causes a buzzing noise to surround a limited area so that those in the area can carry on a private conversation",
       "id": 47,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Nox",
-      "description" : "Extinguishes light, used to douse the light created by “Lumos”",
+      "spell_name": "Nox",
+      "description": "Extinguishes light, used to douse the light created by “Lumos”",
       "id": 48,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Obliviate",
-      "description" : "Makes a person \"oblivious\", erasing their memories of an event",
+      "spell_name": "Obliviate",
+      "description": "Makes a person \"oblivious\", erasing their memories of an event",
       "id": 49,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Orchideous",
-      "description" : "Conjures a bunch of flowers from the user’s wand",
+      "spell_name": "Orchideous",
+      "description": "Conjures a bunch of flowers from the user’s wand",
       "id": 50,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Petrificus Totalus",
-      "description" : "Total petrification; petrifies an opponent totally",
+      "spell_name": "Petrificus Totalus",
+      "description": "Total petrification; petrifies an opponent totally",
       "id": 51,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Point Me",
-      "description" : "The Four Point Spell; makes the user’s wand act like a compass",
+      "spell_name": "Point Me",
+      "description": "The Four Point Spell; makes the user’s wand act like a compass",
       "id": 52,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Portus",
-      "description" : "Turns any item into a Portspell_name, which can then be used to transport a person or persons to another location.",
+      "spell_name": "Portus",
+      "description": "Turns any item into a Portspell_name, which can then be used to transport a person or persons to another location.",
       "id": 53,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Prior Incantato",
-      "description" : "Reveals to you the last spell that a wand was used to cast",
+      "spell_name": "Prior Incantato",
+      "description": "Reveals to you the last spell that a wand was used to cast",
       "id": 54,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Protego",
-      "description" : "Protects the user, and sends a spell back on an opponent",
+      "spell_name": "Protego",
+      "description": "Protects the user, and sends a spell back on an opponent",
       "id": 55,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Quietus",
-      "description" : "Makes things quiet, used to muffle \"Sonorus\"",
+      "spell_name": "Quietus",
+      "description": "Makes things quiet, used to muffle \"Sonorus\"",
       "id": 56,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Reducio",
-      "description" : "Shrinks an item",
+      "spell_name": "Reducio",
+      "description": "Shrinks an item",
       "id": 57,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Reducto",
-      "description" : "Blasts solid objects into pieces",
+      "spell_name": "Reducto",
+      "description": "Blasts solid objects into pieces",
       "id": 58,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Relashio",
-      "description" : "Releases something from being constrained or held",
+      "spell_name": "Relashio",
+      "description": "Releases something from being constrained or held",
       "id": 59,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Rennervate",
-      "description" : "Means to energize or wake up",
+      "spell_name": "Rennervate",
+      "description": "Means to energize or wake up",
       "id": 60,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Reparo",
-      "description" : "Repairs broken items",
+      "spell_name": "Reparo",
+      "description": "Repairs broken items",
       "id": 61,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Repello",
-      "description" : "Repels something",
+      "spell_name": "Repello",
+      "description": "Repels something",
       "id": 62,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Repello Muggletum",
-      "description" : "Makes an area invisible to Muggles",
+      "spell_name": "Repello Muggletum",
+      "description": "Makes an area invisible to Muggles",
       "id": 63,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Revelio",
-      "description" : "Causes something that is hidden to be revealed",
+      "spell_name": "Revelio",
+      "description": "Causes something that is hidden to be revealed",
       "id": 64,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Rictusempra",
-      "description" : "Causes a person to curl up in laughter, as if being tickled",
+      "spell_name": "Rictusempra",
+      "description": "Causes a person to curl up in laughter, as if being tickled",
       "id": 65,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Riddikulus",
-      "description" : "Makes a boggart assume a “ridiculous” form, thereby making it funny instead of terrifying",
+      "spell_name": "Riddikulus",
+      "description": "Makes a boggart assume a “ridiculous” form, thereby making it funny instead of terrifying",
       "id": 66,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Salvio Hexia",
-      "description" : "Strengthen other protective spells, or to deflect any hexes cast toward a specific location",
+      "spell_name": "Salvio Hexia",
+      "description": "Strengthen other protective spells, or to deflect any hexes cast toward a specific location",
       "id": 67,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Scourgify",
-      "description" : "Used to clean dirt or other material off of a surface",
+      "spell_name": "Scourgify",
+      "description": "Used to clean dirt or other material off of a surface",
       "id": 68,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Sectumsempra",
-      "description" : "Causes lacerations to appear all over an opponent’s body, as if they had been cut by an invisible sword",
+      "spell_name": "Sectumsempra",
+      "description": "Causes lacerations to appear all over an opponent’s body, as if they had been cut by an invisible sword",
       "id": 69,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Serpensortia",
-      "description" : "Conjures a snake",
+      "spell_name": "Serpensortia",
+      "description": "Conjures a snake",
       "id": 70,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Silencio",
-      "description" : "Makes the target of the spell unable to make any sound",
+      "spell_name": "Silencio",
+      "description": "Makes the target of the spell unable to make any sound",
       "id": 71,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Sonorus",
-      "description" : "Amplifies the user’s voice",
+      "spell_name": "Sonorus",
+      "description": "Amplifies the user’s voice",
       "id": 72,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Stupefy",
-      "description" : "Stupefies an opponent, or knocks them insensible temporarily",
+      "spell_name": "Stupefy",
+      "description": "Stupefies an opponent, or knocks them insensible temporarily",
       "id": 73,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Tarantallegra",
-      "description" : "Forces an opponent’s legs to dance uncontrollably",
+      "spell_name": "Tarantallegra",
+      "description": "Forces an opponent’s legs to dance uncontrollably",
       "id": 74,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Tergeo",
-      "description" : "Scours something clean",
+      "spell_name": "Tergeo",
+      "description": "Scours something clean",
       "id": 75,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Waddiwasi",
-      "description" : "Removes a stuck object, as in a wad of gum that is stuck in a spell_namehole",
+      "spell_name": "Waddiwasi",
+      "description": "Removes a stuck object, as in a wad of gum that is stuck in a spell_namehole",
       "id": 76,
       "unforgivable": false
-    }, 
+    },
     {
-      "spell_name" : "Wingardium Leviosa",
-      "description" : "Allows the user to make an object levitate; the first spell taught in the Harry Potter movies",
+      "spell_name": "Wingardium Leviosa",
+      "description": "Allows the user to make an object levitate; the first spell taught in the Harry Potter movies",
       "id": 77,
       "unforgivable": false
     }
