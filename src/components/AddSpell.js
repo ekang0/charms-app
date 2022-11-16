@@ -21,7 +21,6 @@ function AddSpell( { onAddSpell }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    //console.log("submit works")
     //alert("Spell was submitted");
     const newSpell = {
       spell_name : formData.spell_name,
