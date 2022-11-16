@@ -1,17 +1,15 @@
-import logo from '../logo.svg';
 import '../App.css';
-import Navbar from './Navbar';
-import Header from './Header';
 import { useState, useEffect } from "react";
 import {
   Switch,
   Route
 } from "react-router-dom";
+import Navbar from './Navbar';
+import Header from './Header';
 import Home from "./Home";
 import AllSpells from "./AllSpells";
 import SinisterSpells from "./SinisterSpells";
 import AddSpell from "./AddSpell";
-import SpellCard from "./SpellCard";
 //import { Card } from "semantic-ui-react";
 import Footer from './Footer';
 
