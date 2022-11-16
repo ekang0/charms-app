@@ -12,7 +12,6 @@ function AddSpell( { onAddSpell }) {
   };
 
   function handleChange(e) {
-    //console.log("value", e.target.value, "name", e.target.name)
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
