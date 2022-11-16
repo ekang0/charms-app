@@ -21,14 +21,13 @@ function SpellCard (spell) {
   const descriptionStyle = {
     fontSize: "10px"
   };
-  
+
 
   return (
     <div className="card" id={id} style={cardStyle}>
       <div className="container" style={containerStyle}>
         <p><b>{spell_name}</b></p>
         <p style={descriptionStyle}>{description}</p>
-        <p>{unforgivable}</p>
       </div>
     </div>
   )
