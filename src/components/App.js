@@ -13,6 +13,7 @@ import SinisterSpells from "./SinisterSpells";
 import AddSpell from "./AddSpell";
 import SpellCard from "./SpellCard";
 //import { Card } from "semantic-ui-react";
+import Footer from './Footer';
 
 function App() {
   const [spells, setSpells] = useState([]);
@@ -24,6 +25,10 @@ function App() {
   }, []);
 
   const sinisterSpellsList = spells.filter((spell) => spell.unforgivable === true);
+
+  function handleAddSpell(newSpell) {
+    setSpells([...spells, newSpell])
+  };
 
 
   return (
@@ -40,13 +45,17 @@ function App() {
             <SinisterSpells spells={sinisterSpellsList}/>
           </Route>
           <Route path="/add">
-            <AddSpell/>
+            <AddSpell onAddSpell={handleAddSpell}/>
           </Route>
           <Route path="/">
             <Home/>
           </Route>
         </Switch>
       </header>
+      <br></br>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 };
