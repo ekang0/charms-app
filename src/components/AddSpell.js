@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function AddSpell() {
+function AddSpell( { onAddSpell }) {
   const [ formData, setFormData ] = useState({
     spell_name : "",
     description : "",
@@ -11,10 +11,33 @@ function AddSpell() {
     fontSize: "15px"
   };
 
+  function handleChange(e) {
+    //console.log("value", e.target.value, "name", e.target.name)
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    })
+  };
+
   function handleSubmit(e) {
     e.preventDefault();
     //console.log("submit works")
     //alert("Spell was submitted");
+    const newSpell = {
+      spell_name : formData.spell_name,
+      description : formData.description,
+      unforgivable: formData.unforgivable === "true" ? true : false
+    };
+    
+    fetch("http://localhost:3004/spells", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(newSpell)
+    })
+    .then(res => res.json())
+    .then(newSpell => onAddSpell(newSpell));
   };
 
 
@@ -28,15 +51,15 @@ function AddSpell() {
       <br></br>
       <form onSubmit={handleSubmit}>
         <label>{"spell name "} 
-          <input type="text" ></input>
+          <input type="text" name="spell_name" onChange={handleChange}></input>
         </label>
         <br></br>
         <label>{"description "}
-          <input type="text" ></input>
+          <input type="text" name="description" onChange={handleChange}></input>
         </label>
         <br></br>
         <label>{"unforgivable "}
-          <select>
+          <select name="unforgivable" onChange={handleChange}>
             <option value="false">false</option>
             <option value="true">true</option>
           </select>
