@@ -1,5 +1,27 @@
-# Getting Started with Create React App
+# Charms App
+>Charms is an app for wizards and muggles to learn spells and their effects.
+This app was originally designed for Hogwarts students to use as a reference guide but is now open to all who are seeking to aquire more knowledge about charms. Though the spells existing in the wizarding world rarely change, a field to submit and add a spell has been provided.
 
+## Charms App Philosophy
+>As Mr. Harry Potter once said, "Working hard is important. But there is something that matters even more: BELIEVING IN YOURSELF." 
+Though this app will help one learn about the spell, incantation and effect, it is up to oneself to believe that in their abilities to perform it. All that come to the Charms app are students, so students wands at the ready. 🪄 Let's begin! 
+
+
+## Features
+#### Homepage
+* Welcomes students to the app
+#### All Spells Page
+* Displays all the spells and descriptions for students to view
+#### Sinister Spells Page
+* Displays all the unforgivable curses and descriptions for students to view
+#### Add a Spell Page
+* Form where a new spell can be submitted
+* New spell will persist to the All Spells Page and the Sinister Page if applicable 
+
+
+
+
+# App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
