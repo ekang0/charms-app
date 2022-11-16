@@ -1,11 +1,11 @@
 import SpellCard from "./SpellCard";
 
-function SinisterSpells( spells ) {
+function SinisterSpells({ spells }) {
   const pTagStyle = {
     fontSize: "15px"
   };
 
-  const cards = spells.spells.map((spell) => {
+  const cards = spells.map((spell) => {
     return (
       <SpellCard key={spell.id} spell={spell}/>
     )
@@ -17,8 +17,9 @@ function SinisterSpells( spells ) {
       <h4 className="h4Style">Unforgivable Curses</h4>
       <p>so you've decided to dabble in the dark arts</p>
       <p style={pTagStyle}>list of all curses</p> 
-      <br></br>
-      {cards}
+      <div>
+        {cards}
+      </div>
     </div>
   )
 };

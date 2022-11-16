@@ -1,7 +1,7 @@
 import SpellCard from "./SpellCard";
 
-function AllSpells( spells ) {
-  const cards = spells.spells.map((spell) => { 
+function AllSpells({ spells }) {
+  const cards = spells.map((spell) => { 
     return (
       <SpellCard key={spell.id} spell={spell}/>
     )
