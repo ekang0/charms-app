@@ -17,16 +17,17 @@ Though this app will help one learn about the spell, incantation and effect, it 
 #### Add a Spell Page
 * Form to fill out a new spell and submit
 * New spell will persist to the All Spells Page and the Sinister Page if applicable 
+#### Future Features
+Features to implement in the future
+* A matching game that helps one learn the spell by matching the name to the description 
+* Authentication with password and username that checks if the credentails are a teacher in order to submit and add a spell 
 
 
-what the mail goal yes, why, how
+
+what the main goal yes, why, how
 what was your motivation
-why did you build this project
-what problem does it solve
 what did you learn
 what makes your project stand out
-if proj has a lot of features considering adding a features section and listing them here
-challenges faced and features you hope to implement in the future --> game to test spell with description, authentication with pw and username to check credentials teacher to add a spell
 4. how to install and run the project // step by step description of how to get the development environment set and running 
 5. how to use the project // instructions and examples // can include screenshots
 6. include credits // hp spells api // tutorials or reference matieral
