@@ -27,7 +27,7 @@ Possible features to implement in the future
 
 ## Charms App Photos
 Home
-<img src="/public/homepageimage.png" alt="home page image" style="display: inline-block; margin: 0 auto; max-width: 300px"/>
+<img src="/public/homepageimage.png" alt="home page image" style="max-width: 50%"/>
 Add Spell
 <img src="/public/addspellpageimage.png" alt="add spell page image" style=""/>
 
