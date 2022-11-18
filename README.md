@@ -27,7 +27,9 @@ Possible features to implement in the future
 
 ## Charms App Photos
 Home
-<img src="/public/homepageimage.png" alt="home page image"/>
+<img src="/public/homepageimage.png" alt="home page image" style="border-image: linear-gradient(#bbbcbc, #c5c6c7) 30;"/>
+Add Spell
+<img src="/public/addspellpageimage.png" alt="add spell page image" style="border-image: linear-gradient(#bbbcbc, #c5c6c7) 30;"/>
 
 
 ## Installation and Running Instructions
