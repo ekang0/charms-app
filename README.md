@@ -26,7 +26,8 @@ Possible features to implement in the future
 * Authentication with password and username that checks if the credentails are an instructor in order to submit and add a spell 
 
 ## Charms App Photos
-![home]()
+Home
+<img src="/public/homepageimage.png" alt="home page image"/>
 
 
 ## Installation and Running Instructions
