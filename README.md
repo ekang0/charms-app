@@ -1,9 +1,12 @@
 # Charms App
->Charms is an app created with React for wizards and muggles to learn spells and their effects. 🧙🏻‍♀️🧙🏽🧙🏿‍♂️💫
+>Charms is an app created with React, Javascript, and CSS for wizards and muggles to learn spells and their effects. 🧙🏻‍♀️🧙🏽🧙🏿‍♂️💫
+
+## Charms App Status
 This app was originally designed for Hogwarts students to use as an alternative and supplemental resource to the coursebook by providing an online reference guide to spells, but is now open to all who are seeking to aquire more knowledge about charms. Though the spells existing in the wizarding world rarely change, a field to submit and add a spell has been provided.
 
 ## Charms App Philosophy
 As Mr. Harry Potter once said, "Working hard is important. But there is something that matters even more: BELIEVING IN YOURSELF." 
+<br />
 Though this app will help one learn about the spell, incantation and effect, it is up to oneself to believe in their abilities to perform it. All that come to the Charms app are students, so students wands at the ready. 🪄 Let's begin! 
 
 
@@ -15,12 +18,23 @@ Though this app will help one learn about the spell, incantation and effect, it 
 #### Sinister Spells Page
 * Displays all the unforgivable curses and descriptions for students to view
 #### Add a Spell Page
-* Form to fill out a new spell and submit
-* New spell will persist to the All Spells Page and the Sinister Page if applicable 
+* Form to fill out and submit a new spell
+* New spell will persist to the All Spells Page and the Sinister Page, if applicable 
 #### Future Features
-Features to implement in the future
-* A matching game that helps one learn the spell by matching the name to the description 
-* Authentication with password and username that checks if the credentails are a teacher in order to submit and add a spell 
+Possible features to implement in the future
+* A matching game that helps one learn spells by matching the name of the spell to the description 
+* Authentication with password and username that checks if the credentails are an instructor in order to submit and add a spell 
+
+## Charms App Photos
+
+
+
+## Installation and Setup Instructions
+Clone down this repository. You will need ```node``` and ```npm``` installed globally on your machine.
+1. 
+2. 
+3. 
+
 
 
 
