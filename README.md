@@ -19,7 +19,7 @@ Though this app will help one learn about the spell, incantation and effect, it 
 * Displays all the unforgivable curses and descriptions for students to view
 #### Add a Spell Page
 * Form to fill out and submit a new spell
-* New spell will persist to the All Spells Page and the Sinister Page, if applicable 
+* New spell will persist to the All Spells Page and the Sinister Spells Page, if applicable 
 #### Future Features
 Possible features to implement in the future
 * A matching game that helps one learn spells by matching the name of the spell to the description 
@@ -27,7 +27,7 @@ Possible features to implement in the future
 
 ## Charms App Photos
 Home
-<img src="/public/homepageimage.png" alt="home page image" style="border-image: linear-gradient(#bbbcbc, #c5c6c7) 30;"/>
+<img src="/public/homepageimage.png" alt="home page image" style="borderImage: linear-gradient(#bbbcbc, #c5c6c7) 30;"/>
 Add Spell
 <img src="/public/addspellpageimage.png" alt="add spell page image" style="border-image: linear-gradient(#bbbcbc, #c5c6c7) 30;"/>
 
