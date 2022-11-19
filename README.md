@@ -48,7 +48,7 @@ To Visit App:
 
 ``localhost:3000/``
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open http://localhost:3000 to view it in your browser.
 
 
 ## Reflection
