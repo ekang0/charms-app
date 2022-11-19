@@ -48,8 +48,6 @@ To Visit App:
 
 ``localhost:3000/``
 
-Open http://localhost:3000 to view it in your browser.
-
 
 ## Reflection
 This was a project built during the second phase, React, for school. The goal of the project was to showcase technologies learned up until this point by building a single-page application using React. 
@@ -58,6 +56,8 @@ One of the challenges I ran into was in posting form data. When a new spell woul
 
 ## Credits and Resources
 [Harry Potter spells collection](https://github.com/Dane-Dawson/json-server-collection/tree/main/harry-potter-spells)
+
 [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+
 [React documentation](https://reactjs.org/).
 
