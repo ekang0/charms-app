@@ -2,7 +2,7 @@
 >Charms is a project created with React, Javascript, and CSS for wizards and muggles to learn spells and their effects. 🧙🏻‍♀️🧙🏽🧙🏿‍♂️💫
 
 ## Charms App Status
-This project was originally designed for students of Hogwarts, School of Witchcraft and Wizardy, to use as an alternative and supplemental resource for the materials utilized in Professor Flitwick's Charms Course. This app is now open to all who seek to acquire knowledge about charms and will provide students with an online reference guide to the spells outlined in the course material. Though spells that exist in the wizarding world rarely change, a field to submit and add a spell has been provided.
+This project was originally designed for students of Hogwarts, School of Witchcraft and Wizardry, to use as an alternative and supplemental resource for the materials utilized in Professor Flitwick's Charms Course. This app is now open to all who seek to acquire knowledge about charms and will provide students with an online reference guide to the spells outlined in the course material. Though spells that exist in the wizarding world rarely change, a field to submit and add a spell has been provided.
 
 ## Charms App Philosophy
 As the legendary Harry Potter once said, "Working hard is important. But there is something that matters even more: BELIEVING IN YOURSELF." 
