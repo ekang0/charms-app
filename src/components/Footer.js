@@ -1,6 +1,6 @@
 function Footer() {
   const footerStyle = {
-    background: "#4c6969",
+    background: "#879f84",
     marginTop: "80px",
     color: "white",
     fontSize: "15px",
@@ -11,7 +11,7 @@ function Footer() {
   return (
     <div className="footer" style={footerStyle}>
       <p>"Working hard is important. But there is something that matters even more: </p>
-      <h3 style={{color: "#879f84"}}>Believing in yourself." - Harry Potter</h3>
+      <p>Believing in yourself." - <b>Harry Potter</b></p>
     </div>
   )
 };
