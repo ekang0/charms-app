@@ -1,5 +1,5 @@
 function SpellCard ({ spell }) {
-  const {description, id, spell_name, unforgivable} = spell;
+  const {description, id, spell_name} = spell;
   
   const cardStyle = {
     boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)",
@@ -11,7 +11,6 @@ function SpellCard ({ spell }) {
     background: "#eeeee6",
     textAlign: "center",
     overflow: "hidden",
-    textAlign: "justify"
   };
 
   const containerStyle = {
