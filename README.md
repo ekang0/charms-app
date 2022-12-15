@@ -52,7 +52,7 @@ To Visit App:
 ## Reflection
 This was a project built during the second phase, React, for school. The goal of the project was to showcase technologies learned up until this point by building a single-page application using React. 
 
-One of the challenges I ran into was in posting form data. When a new spell would be submitted the data that would persist for the key unforgivable had a string value but needed to be a boolean value. This caused the spell to render incorrectly in the pages. After trying different logic and looking online for answers, I was able to implement the ternary operator to return a boolean value. The new spell data reflected correctly in the database and thus rendered in the appropriate pages. 
+One of the challenges I ran into was in posting form data. When a new spell would be submitted the data that would persist for the key unforgivable had a string value but needed to be a boolean value. This caused the spell to render incorrectly in the pages. After trying several different provisions of logic and diving into the internet for additional insights, I was able to implement the ternary operator to return a boolean value. The new spell data reflected correctly in the database and thus rendered in the appropriate pages. 
 
 ## Credit and Resources
 [Harry Potter spells collection](https://github.com/Dane-Dawson/json-server-collection/tree/main/harry-potter-spells)
