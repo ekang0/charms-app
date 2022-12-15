@@ -25,6 +25,4 @@ function Home() {
   )
 };
 
-//<p>Hogwarts Professor Flitwick has decided to teach charms online.</p>
-
 export default Home;
