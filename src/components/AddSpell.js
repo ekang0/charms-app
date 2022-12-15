@@ -4,7 +4,7 @@ function AddSpell( { onAddSpell }) {
   const [ formData, setFormData ] = useState({
     spell_name : "",
     description : "",
-    unforgivable: null
+    unforgivable: false
   });
 
   const pTagStyle = {
@@ -20,7 +20,7 @@ function AddSpell( { onAddSpell }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    //alert("Spell was submitted");
+
     const newSpell = {
       spell_name : formData.spell_name,
       description : formData.description,
@@ -35,10 +35,17 @@ function AddSpell( { onAddSpell }) {
       body: JSON.stringify(newSpell)
     })
     .then(res => res.json())
-    .then(newSpell => onAddSpell(newSpell));
+    .then(newSpell => {
+      onAddSpell(newSpell)
+      setFormData({
+        spell_name : "",
+        description : "",
+        unforgivable: false
+      })
+    });
   };
 
-
+  
   return (
     <div>
       <div>
@@ -49,15 +56,15 @@ function AddSpell( { onAddSpell }) {
       <br></br>
       <form onSubmit={handleSubmit}>
         <label>{"spell name "} 
-          <input type="text" name="spell_name" onChange={handleChange}></input>
+          <input type="text" name="spell_name" value={formData.spell_name} onChange={handleChange}></input>
         </label>
         <br></br>
         <label>{"description "}
-          <input type="text" name="description" onChange={handleChange}></input>
+          <input type="text" name="description" value={formData.description} onChange={handleChange}></input>
         </label>
         <br></br>
         <label>{"unforgivable "}
-          <select name="unforgivable" onChange={handleChange}>
+          <select value={formData.unforgivable} name="unforgivable" onChange={handleChange}>
             <option value="false">false</option>
             <option value="true">true</option>
           </select>
