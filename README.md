@@ -46,7 +46,7 @@ In another terminal
 
 To Visit App:
 
-``localhost:3000/``
+``localhost:3000/spells``
 
 
 ## Reflection
