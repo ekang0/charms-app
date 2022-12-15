@@ -22,10 +22,10 @@ function Navbar() {
 
   return(
     <div className="navbar" style={navStyle}>
-      <NavLink exact to="/" style={linkStyles} activeStyle={{background: "#879f84"}}>home</NavLink>
-      <NavLink to="/all" style={linkStyles} activeStyle={{background: "#879f84"}}>all spells</NavLink>
-      <NavLink to="/sinister" style={linkStyles} activeStyle={{background: "black"}}>sinister spells</NavLink>
-      <NavLink to="/add" style={linkStyles} activeStyle={{background: "#879f84"}}>add a spell</NavLink>
+      <NavLink exact to="/spells" style={linkStyles} activeStyle={{background: "#879f84"}}>home</NavLink>
+      <NavLink to="/spells/all" style={linkStyles} activeStyle={{background: "#879f84"}}>all spells</NavLink>
+      <NavLink to="/spells/sinister" style={linkStyles} activeStyle={{background: "black"}}>sinister spells</NavLink>
+      <NavLink to="/spells/add" style={linkStyles} activeStyle={{background: "#879f84"}}>add a spell</NavLink>
     </div>
   )
 };
