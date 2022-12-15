@@ -36,16 +36,16 @@ function App() {
         <Navbar/>
         <br></br>
         <Switch>
-          <Route path="/all">
+          <Route path="/spells/all">
             <AllSpells spells={spells}/>
           </Route>
-          <Route path="/sinister">
+          <Route path="/spells/sinister">
             <SinisterSpells spells={sinisterSpellsList}/>
           </Route>
-          <Route path="/add">
+          <Route path="/spells/add">
             <AddSpell onAddSpell={handleAddSpell}/>
           </Route>
-          <Route path="/">
+          <Route path="/spells">
             <Home/>
           </Route>
         </Switch>
