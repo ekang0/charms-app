@@ -45,7 +45,7 @@ function App() {
           <Route path="/spells/add">
             <AddSpell onAddSpell={handleAddSpell}/>
           </Route>
-          <Route path="/spells">
+          <Route exact path="/spells">
             <Home/>
           </Route>
         </Switch>
