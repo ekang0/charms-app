@@ -14,7 +14,7 @@ function SpellCard ({ spell }) {
   };
 
   const containerStyle = {
-      padding: "30px 35px",
+    padding: "30px 35px"
   };
 
   const descriptionStyle = {
